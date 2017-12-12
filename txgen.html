@@ -10,23 +10,22 @@
   <body>
 
     <div id="content">
-      <span style="font-size:18px;cursor:pointer" onclick="openNav()">menu</span>
+      <button id="onav" onclick="openNav()">menu</button>
       <h1>Welcome!</h1>
       <p>My name is Txgen Meyer. I'm an artist and web developer currently based in Kansas City, Missouri. </p>
     </div>
 
-    <div id="menu" class="sidenav">
-      <button type="button" class="close" style="display:none" onclick="closeNav()">close</a>
-      <a href="home.html">home</a>
-      <a href="work.html">work</a>
-      <a href="cv.html">cv</a>
-      <a href="bio.html">bio</a>
-      <a href="contact.html">contact</a>
-
-      <a href="https://twitter.com/schizoanalytic">twitter</a>
-      <a href="https://maniacalschizoflow.tumblr.com/">tumblr</a>
+    <div id="menu" class="sidenav" style="display:none">
+      <button type="button" class="close" onclick="closeNav()">close</button>
+      <p><a href="home.html">home</a> <br>
+      <a href="work.html">work</a> <br>
+      <a href="cv.html">cv</a> <br>
+      <a href="bio.html">bio</a> <br>
+      <a href="contact.html">contact</a></p>
+      <p><a href="https://twitter.com/schizoanalytic">twitter</a> <br>
+      <a href="https://maniacalschizoflow.tumblr.com/">tumblr</a></p>
     </div>
 
-    <script src="myScript.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
